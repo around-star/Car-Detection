@@ -1,4 +1,4 @@
-<h1 align="centre"> Car-Detection </h1>
+<div align="centre"> Car-Detection </div>
 A HOG and SVM based object detection algorithm
 
 ## Histogram of Oriented Gradient

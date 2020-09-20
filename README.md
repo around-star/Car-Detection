@@ -7,4 +7,4 @@ Histogram of Oriented Gradient ([HOG](https://www.learnopencv.com/histogram-of-o
 The features extracted is used for training in the SVM classifier. The classifier model generated is used for predicting whether a certain region contauns the object or not.
 
 ## Files
-- 'set_images.py'
+- ''' set_images.py ''' 

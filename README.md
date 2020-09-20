@@ -1,4 +1,4 @@
-<div align="centre"> Car-Detection </div>
+## Car-Detection
 A HOG and SVM based object detection algorithm
 
 ## Histogram of Oriented Gradient
@@ -11,4 +11,4 @@ The features extracted is used for training in the SVM classifier. The classifie
 - ```feature_extract.py ``` : Uses the Histogram of Oriented Gradient Descriptor to create the features out of images.
 - ```sliding_windows.py ``` : Returns windows extracted from a given image to perform training/detection.
 - ```training.py``` : This performs training of the classifier from the features obtained from ```feature_extract.py``` . The trained classifier is stored as a pickle file (**model.pkl**)
-- ``` result.py ``` : 
+- ``` result.py ``` : This performs detection of cars in any given image of choice using the trained classifier (**model.pkl**)

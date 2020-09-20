@@ -7,4 +7,6 @@ A HOG and SVM based object detection algorithm
 The features extracted is used for training in the SVM classifier. The classifier model generated is used for predicting whether a certain region contauns the object or not.
 
 ## Files
-- ``` set_images.py  ``` - Transforms any number of images out of the total set in ```vehicles```and ```non-vehicles``` into grayscale and creates a dataset by storing in ```Pos_img``` and ```Neg_img``` respectively. The number of each set can be decided by the user
+- ``` set_images.py  ``` : Transforms any number of images out of the total set in ```vehicles```and ```non-vehicles``` into grayscale and creates a dataset by storing in ```Pos_img``` and ```Neg_img``` respectively. The number of each set can be decided by the user
+- ```feature_extract.py ``` : Uses the Histogram of Oriented Gradient Descriptor to create the features out of the images.
+- ```sliding_windows.py ``` : Returns 
